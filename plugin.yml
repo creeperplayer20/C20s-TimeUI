@@ -1,0 +1,16 @@
+name: timeui
+version: 0.0.1
+main: creeperplayer20\timeui\Main
+author: creeperplayer20
+api: 4.0.8
+src-namespace-prefix: creeperplayer20\timeui
+depend: ["FormAPI"]
+
+commands:
+    timeui:
+        description: "§o§7Opens a §6TimeUI"
+        usage: "/timeui"
+        permission: "timeui.command"
+permissions:
+    timeui.command:
+        default: false
