@@ -4,7 +4,6 @@ main: creeperplayer20\timeui\Main
 author: creeperplayer20
 api: 4.0.8
 src-namespace-prefix: creeperplayer20\timeui
-depend: ["FormAPI"]
 softdepend: ["PurePerms"]
 
 commands:
