@@ -15,21 +15,15 @@ use pocketmine\player\Player;
 
 class Main extends PluginBase implements Listener{
 
-public function onLoad() : void {
-
-    $this->getLogger()->info("[§aC20§r - §6TimeUI§r] §6 Plugin is loading!");
-    
-}
 public function onEnable() : void{
     
-    $this->getLogger()->info("[§aC20§r - §6TimeUI§r] §6 Plugin is loaded!");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
     
 }
     
 public function onDisable() : void{
     
-    $this->getLogger()->info("[§aC20§r - §6TimeUI§r] §4 Plugin is disabled!");
+    $this->getLogger()->info("[§aC20§r - §6TimeUI§r] §4Plugin disabled!");
     
 }
     
