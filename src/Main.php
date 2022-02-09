@@ -9,7 +9,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-use jojoe77777\FormAPI\SimpleForm;
+use creeperplayer20\timeui\jojoe77777\FormAPI\SimpleForm;
 
 use pocketmine\player\Player;
 
@@ -18,12 +18,6 @@ class Main extends PluginBase implements Listener{
 public function onEnable() : void{
     
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
-    
-}
-    
-public function onDisable() : void{
-    
-    $this->getLogger()->info("[§aC20§r - §6TimeUI§r] §4Plugin disabled!");
     
 }
     
