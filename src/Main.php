@@ -70,14 +70,23 @@ public function timeui($player){
         }
     });
         
-    $form->setTitle("§6TimeUI");
-    $form->addButton("§gSunrise");
-    $form->addButton("§eDay");
-    $form->addButton("§bNoon");
-    $form->addButton("§3Sunset");
-    $form->addButton("§9Night");
-    $form->addButton("§1Midnight");
-    $form->addButton("§c§lExit");
+    $title = $keyFromConfig = $this->getConfig()->get("title");
+    $sunrise = $keyFromConfig = $this->getConfig()->get("sunrise");
+    $day = $keyFromConfig = $this->getConfig()->get("day");
+    $noon = $keyFromConfig = $this->getConfig()->get("noon");
+    $sunset = $keyFromConfig = $this->getConfig()->get("sunset");
+    $night = $keyFromConfig = $this->getConfig()->get("night");
+    $midnight = $keyFromConfig = $this->getConfig()->get("midnight");
+    $exit = $keyFromConfig = $this->getConfig()->get("exit");
+
+    $form->setTitle($title);
+    $form->addButton($sunrise);
+    $form->addButton($day);
+    $form->addButton($noon);
+    $form->addButton($sunset);
+    $form->addButton($night);
+    $form->addButton($midnight);
+    $form->addButton($exit);
     $player->sendForm($form);
 }
 
