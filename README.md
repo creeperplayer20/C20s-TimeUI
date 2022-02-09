@@ -10,6 +10,7 @@
 ### Features
 - [X] PM4 Support
 - [X] UI Support
+- [X] Fully Customizable
 
 ### Image
 
