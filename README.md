@@ -1,6 +1,7 @@
 <img src="https://github.com/creeperplayer20/C20s-TimeUI/blob/main/icon.png" alt="C20s TimeUI logo" title="C20s TimeUI" align="center">
 
 # C20s TimeUI
+With this plugin you can change the current time on the server!
 
 ### Commands
 |**Command**|**Description**|**Permission**|**Default**|
